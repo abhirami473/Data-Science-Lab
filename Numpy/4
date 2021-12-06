@@ -1,0 +1,5 @@
+import numpy as np
+arr=np.array(([2,7,6],[2,5,8],[2,8,9]))
+print(arr)
+print("the sum of diagonal element is:")
+print(np.trace(arr))
